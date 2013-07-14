@@ -1,0 +1,11 @@
+main: com.quade.rhgreylist.Greylist
+name: Greylist
+version: 1.0
+author: William Quade
+description: Greylist players using the /greylist command.
+commands:
+    greylist:
+        description: Adds a player to the greylist.
+        usage: /greylist (username)
+        permission: rhgreylist.greylist
+        permission-message: You don't have permission to use that command.
